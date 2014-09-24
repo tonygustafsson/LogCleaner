@@ -1,0 +1,112 @@
+<!--
+	# Created by Tony Gustafsson
+	# Version 2.6
+	# Release date 2013-06-24
+-->
+
+<config>
+	<clean>
+		<path>E:\IIS\</path>
+		<archivePath>\Archive</archivePath>
+		
+		<zipIncludeFilePattern>*</zipIncludeFilePattern>
+	
+		<zipExcludeFilePattern>*.zip</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.rar</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.cab</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.iso</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.7z</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.clnlog</zipExcludeFilePattern>
+		
+		<deleteIncludeFilePattern>*</deleteIncludeFilePattern>
+
+		<deleteExcludeFilePattern>.clnlog</deleteExcludeFilePattern>
+		
+		<zipByDate>true</zipByDate>
+		<zipFilesOlderThan>5</zipFilesOlderThan>
+		<deleteFilesOlderThan>90</deleteFilesOlderThan>
+		<deleteZippedFiles>true</deleteZippedFiles>
+		<compressionLevel>1</compressionLevel>
+	</clean>
+	
+	<clean>
+		<path>E:\LogFiles\</path>
+		<archivePath>\Archive</archivePath>
+		
+		<zipIncludeFilePattern>*</zipIncludeFilePattern>
+	
+		<zipExcludeFilePattern>*.zip</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.rar</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.cab</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.iso</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.7z</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.clnlog</zipExcludeFilePattern>
+		
+		<deleteIncludeFilePattern>*</deleteIncludeFilePattern>
+
+		<deleteExcludeFilePattern>.clnlog</deleteExcludeFilePattern>
+		
+		<zipByDate>true</zipByDate>
+		<zipFilesOlderThan>5</zipFilesOlderThan>
+		<deleteFilesOlderThan>90</deleteFilesOlderThan>
+		<deleteZippedFiles>true</deleteZippedFiles>
+		<compressionLevel>1</compressionLevel>
+	</clean>
+
+	<clean>
+		<path>E:\Logs\</path>
+		<archivePath>\Archive</archivePath>
+		
+		<zipIncludeFilePattern>*</zipIncludeFilePattern>
+	
+		<zipExcludeFilePattern>*.zip</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.rar</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.cab</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.iso</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.7z</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.clnlog</zipExcludeFilePattern>
+		
+		<deleteIncludeFilePattern>*</deleteIncludeFilePattern>
+
+		<deleteExcludeFilePattern>.clnlog</deleteExcludeFilePattern>
+		
+		<zipByDate>true</zipByDate>
+		<zipFilesOlderThan>5</zipFilesOlderThan>
+		<deleteFilesOlderThan>90</deleteFilesOlderThan>
+		<deleteZippedFiles>true</deleteZippedFiles>
+		<compressionLevel>1</compressionLevel>
+	</clean>
+	
+	<clean>
+		<path>E:\Enova\Logfiles\</path>
+		<archivePath>\Archive</archivePath>
+		
+		<zipIncludeFilePattern>*</zipIncludeFilePattern>
+	
+		<zipExcludeFilePattern>*.zip</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.rar</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.cab</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.iso</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.7z</zipExcludeFilePattern>
+		<zipExcludeFilePattern>*.clnlog</zipExcludeFilePattern>
+		
+		<deleteIncludeFilePattern>*</deleteIncludeFilePattern>
+
+		<deleteExcludeFilePattern>.clnlog</deleteExcludeFilePattern>
+		
+		<zipByDate>true</zipByDate>
+		<zipFilesOlderThan>5</zipFilesOlderThan>
+		<deleteFilesOlderThan>90</deleteFilesOlderThan>
+		<deleteZippedFiles>true</deleteZippedFiles>
+		<compressionLevel>1</compressionLevel>
+	</clean>
+	
+	<zipExePath>.\7zip\7z.exe</zipExePath>
+	
+	<logging>
+		<turnedOn>true</turnedOn>
+		<fileSuffix>.clnlog</fileSuffix>
+		<filePath>E:\Logs\LogCleaner\</filePath>
+		<deleteLogsOlderThan>90</deleteLogsOlderThan>
+	</logging>
+</config>
