@@ -6,10 +6,13 @@ It uses 7zip because it's able to use compression level, which is set to 1 as a 
 
 #Installation
 
-1. Copy all files in this directory to the server you want this LogCleaner on
-2. Run deploy_cleaner.bat with admin privileges, follow the instructions.
-3. The configuration will popup in notepad, make the changes that is needed.
-4. Run the scheduled task that is created, verify that it works by looking at the LogCleaners own log files.
+1. Copy all files in this directory to the server you want this LogCleaner on.
+2. Download and copy 7zip to /7zip, only 7z.exe and 7z.dll is needed. Not included.
+3. Run deploy_cleaner.bat with admin privileges, follow the instructions.
+4. The configuration will popup in notepad, make the changes that is needed.
+5. Run the scheduled task that is created, verify that it works by looking at the LogCleaners own log files.
+
+If you have the same folder setup on multiple servers, you could replace the config.xml in the deploy folder with the one you want to be copied instead.
 
 #Configuration variables
 
